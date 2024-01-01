@@ -1,5 +1,6 @@
 const eventController = {
     async getListEvent(req, res) {
+        console.log("GET EVENTS", res, req);
         try {
             res.send({ 
                 success: true, 
